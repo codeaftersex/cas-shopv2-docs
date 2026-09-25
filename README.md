@@ -1,20 +1,17 @@
 ---
-description: A complete, server-authoritative shop system for RedM, built from real RDR2 UI art.
+description: >-
+  A complete, server-authoritative shop system for RedM, built from real RDR2 UI
+  art.
 ---
 
-# CAS Shops & Stores
+# Overview
 
-**CAS Shops & Stores** replaces the usual list-menu shop with a full merchant interface: a
-browsable shelf, a working satchel, an order basket, and a bill of sale to confirm against.
-Every counter is staffed by a shopkeeper who is streamed in as the player approaches, dressed
-correctly, placed on the floor, and turned to face whoever steps up to the counter.
+**CAS Shops & Stores** replaces the usual list-menu shop with a full merchant interface: a browsable shelf, a working satchel, an order basket, and a bill of sale to confirm against. Every counter is staffed by a shopkeeper who is streamed in as the player approaches, dressed correctly, placed on the floor, and turned to face whoever steps up to the counter.
 
-Six trading counters are configured and ready on install. Adding your own is a matter of editing
-one file.
+Six trading counters are configured and ready on install. Adding your own is a matter of editing one file.
 
 {% hint style="info" %}
-Nothing the interface reports is trusted. Prices, discounts, stock, opening hours and carrying
-capacity are all recalculated on the **server** before a single coin changes hands.
+Nothing the interface reports is trusted. Prices, discounts, stock, opening hours and carrying capacity are all recalculated on the **server** before a single coin changes hands.
 {% endhint %}
 
 ### Highlights
@@ -32,12 +29,14 @@ capacity are all recalculated on the **server** before a single coin changes han
 
 ### Framework compatibility
 
-| Framework | Status |
-| --------- | --------- |
-| VORP Core | Supported |
-| RSG Core | Supported |
+| Framework  | Status    |
+| ---------- | --------- |
+| VORP Core  | Supported |
+| RSG Core   | Supported |
 | Standalone | Supported |
 
-Framework and inventory are **detected automatically**, or can be pinned in `config.lua`. All
-framework-specific calls live in a `bridge/` layer, so adapting to another framework means editing
-one file.
+Framework and inventory are **detected automatically**, or can be pinned in `config.lua`. All framework-specific calls live in a `bridge/` layer, so adapting to another framework means editing one file.
+
+## Get the script
+
+CAS Shop V2 (Buy & Sell) is sold on the CAS Scripts store: [codeaftersex.com/script/cas-shop-v2-buy-and-sell](https://codeaftersex.com/script/cas-shop-v2-buy-and-sell). Both the Escrow build and the full Open Source build are listed there, with lifetime updates and Discord support.
